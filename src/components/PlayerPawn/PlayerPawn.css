@@ -1,0 +1,67 @@
+/* Ensure the font is loaded */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* PlayerPawn.css */
+.player-pawn {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%) scale(1); /* Reduced scale factor */
+  transform-origin: top center; /* Ensure scaling originates from the top left */
+  background-color: #ffdc9b;
+  padding: 10px; /* Adjusted padding to better fit the pixel art style */
+  border: 8px solid #3d1900;
+  border-radius: 0;
+  color: #3d1900; /* Text color to match the border */
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0 4px 8px rgb(109, 109, 109);
+  image-rendering: pixelated; /* Ensures images are rendered in a pixelated style */
+  width: auto; 
+  /* Adjust width to fit content */
+}
+
+.player-pawn h2 {
+  margin: 0 0 10px 0;
+  font-size: 1em; /* Adjusted font size for pixel art style */
+}
+
+.player-pawn div {
+  margin: 10px 0;
+}
+
+.player-pawn button {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px; /* Reduced padding to match the pixel art style */
+  border: 2px solid #fff;
+  background-color: #3d1900;
+  color: #fff; /* Text color to contrast with the button background */
+  cursor: pointer;
+  font-size: 1em; /* Adjusted font size for pixel art style */
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.player-pawn button:hover {
+  background-color: #5c3a21; /* Darker shade to match pixel art theme */
+}
+
+.player-pawn input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px; /* Adjust padding for pixel art style */
+  border: 2px solid #fff;
+  background-color: #3d1900;
+  color: #fff; /* Text color to contrast with the input background */
+  font-size: 1em; /* Adjusted font size for pixel art style */
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+/* New class to center the start button */
+.center-button {
+  display: flex;
+  justify-content: center;
+}
