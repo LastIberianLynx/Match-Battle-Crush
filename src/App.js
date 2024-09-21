@@ -264,7 +264,7 @@ const App = () => {
       saveUnits(units);
       localStorage.setItem('reinforcements', reinforcements.toString());
       localStorage.setItem('moves', attacksPerTurn.toString());
-      window.location.href = '../build/index.html';
+      window.location.href = '../test/index.html';
     }, 2000);
 
     
